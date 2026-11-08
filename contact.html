@@ -1,273 +1,218 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
-
     <meta charset="UTF-8">
-
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Contact | HALIB Tech & Media Group</title>
 
     <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
 
-<header class="navbar">
+            <a href="index.html" class="logo">
+                <img src="Halibtechandmediagrouplogo.png" alt="HALIB Logo">
+            </a>
 
-    <div class="nav-container">
-
-        <a href="index.html" class="logo">
-            <img src="Halibtechandmediagrouplogo.png" alt="HALIB Logo">
-        </a>
-
-        <nav class="nav-links">
-
-            <a href="index.html">Home</a>
-
-            <a href="about.html">About</a>
-
-            <a href="services.html">Services</a>
-
-            <a href="contact.html" class="active">Contact</a>
-
-        </nav>
-
-    </div>
-
-</header>
-
-
-<main>
-
-
-<section class="page-hero">
-
-    <p class="section-label">GET IN TOUCH</p>
-
-    <h1>Contact HALIB</h1>
-
-    <p>
-        Have a project, question or service request?
-        Get in touch with us.
-    </p>
-
-</section>
-
-
-<section class="section contact-section">
-
-
-    <div class="contact-information">
-
-        <p class="section-label">CONTACT INFORMATION</p>
-
-        <h2>Let's talk about your idea.</h2>
-
-        <p>
-            Tell us what you need and our team can discuss
-            the appropriate solution with you.
-        </p>
-
-
-        <div class="contact-item">
-
-            <strong>Email</strong>
-
-            <p>halibtechandmediagroup@gmail.com</p>
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="contact.html" class="active">Contact</a>
+            </nav>
 
         </div>
+    </header>
 
+    <main>
 
-        <div class="contact-item">
+        <!-- Page Hero -->
+        <section class="page-hero">
 
-            <strong>Phone</strong>
+            <p class="section-label">GET IN TOUCH</p>
 
-            <p>+234 906 149 2981</p>
+            <h1>Let's Build Something Great.</h1>
 
+            <p>
+                Have an idea, a project or a question?
+                We'd love to hear from you.
+                Tell us what you have in mind.
+            </p>
+
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section">
+
+            <!-- Contact Information -->
+            <div class="contact-information">
+
+                <p class="section-label">CONTACT INFORMATION</p>
+
+                <h2>Let's talk about your idea.</h2>
+
+                <p>
+                    Every great project starts with a conversation.
+                    Reach out to HALIB and let's explore how we can
+                    turn your ideas into possibilities.
+                </p>
+
+                <div class="contact-item">
+                    <strong>Email</strong>
+                    <p>halibtechandmediagroup@gmail.com</p>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Phone</strong>
+                    <p>+234 906 149 2981</p>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Location</strong>
+                    <p>Mandawari, Kano, Nigeria</p>
+                </div>
+
+                <div class="contact-item">
+                    <strong>Our Promise</strong>
+                    <p>
+                        Technology. Creativity. Possibility.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- Contact Form -->
+            <div class="form-container">
+
+                <p class="section-label">SEND AN ENQUIRY</p>
+
+                <h2>Send Us a Message</h2>
+
+                <p>
+                    Complete the form below and tell us how we can help.
+                </p>
+
+                <form id="contactForm">
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your full name"
+                            autocomplete="name"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter your email address"
+                            autocomplete="email"
+                            required
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter your phone number"
+                            autocomplete="tel"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="service">Service Required</label>
+
+                        <select id="service" name="service" required>
+
+                            <option value="">Select a service</option>
+
+                            <option value="Website Development">Website Development</option>
+                            <option value="Software Development">Software Development</option>
+                            <option value="App Development">App Development</option>
+                            <option value="UI/UX Design">UI/UX Design</option>
+                            <option value="Graphic Design">Graphic Design</option>
+                            <option value="Video Editing">Video Editing</option>
+                            <option value="AI Content Creation">AI Content Creation</option>
+                            <option value="Advertising & Marketing">Advertising & Marketing</option>
+                            <option value="Business Services">Business Services</option>
+                            <option value="HALIB Academy">HALIB Academy</option>
+                            <option value="Other">Other</option>
+
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+
+                        <input
+                            type="text"
+                            id="subject"
+                            name="subject"
+                            placeholder="What is your enquiry about?"
+                        >
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="7"
+                            placeholder="Tell us about your project or request..."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <p id="formStatus" role="status" aria-live="polite"></p>
+
+                    <button
+                        type="submit"
+                        class="btn primary-btn submit-btn"
+                    >
+                        Send Message
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="copyright">
+            <p>
+                © 2026 HALIB Tech & Media Group.
+                All Rights Reserved.
+            </p>
         </div>
 
+    </footer>
 
-        <div class="contact-item">
-
-            <strong>Location</strong>
-
-            <p>Mandawari Kano, Nigeria</p>
-
-        </div>
-
-    </div>
-
-
-    <div class="form-container">
-
-        <h2>Send Us a Message</h2>
-
-
-        <form action="contact.php" method="POST">
-
-
-            <div class="form-group">
-
-                <label for="name">
-                    Full Name
-                </label>
-
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    placeholder="Enter your full name"
-                    required
-                >
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="email">
-                    Email Address
-                </label>
-
-                <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    placeholder="Enter your email"
-                    required
-                >
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="phone">
-                    Phone Number
-                </label>
-
-                <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    placeholder="Enter your phone number"
-                >
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="service">
-                    Service Required
-                </label>
-
-                <select id="service" name="service" required>
-
-                    <option value="">
-                        Select a service
-                    </option>
-
-                    <option>Website Development</option>
-
-                    <option>Software Development</option>
-
-                    <option>App Development</option>
-
-                    <option>UI/UX Design</option>
-
-                    <option>Graphic Design</option>
-
-                    <option>Video Editing</option>
-
-                    <option>AI Content Creation</option>
-
-                    <option>Advertising & Marketing</option>
-
-                    <option>Business Services</option>
-
-                    <option>HALIB Academy</option>
-
-                    <option>Other</option>
-
-                </select>
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="subject">
-                    Subject
-                </label>
-
-                <input
-                    type="text"
-                    id="subject"
-                    name="subject"
-                    placeholder="What is your enquiry about?"
-                >
-
-            </div>
-
-
-            <div class="form-group">
-
-                <label for="message">
-                    Message
-                </label>
-
-                <textarea
-                    id="message"
-                    name="message"
-                    rows="7"
-                    placeholder="Tell us about your project or request..."
-                    required
-                ></textarea>
-
-            </div>
-
-
-            <button
-                type="submit"
-                class="btn primary-btn submit-btn"
-            >
-                Send Message
-            </button>
-
-
-        </form>
-
-    </div>
-
-</section>
-
-
-</main>
-
-
-<footer class="footer">
-
-    <div class="copyright">
-
-        <p>
-            © 2026 HALIB Tech & Media Group.
-            All Rights Reserved.
-        </p>
-
-    </div>
-
-</footer>
-
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
 </html>
